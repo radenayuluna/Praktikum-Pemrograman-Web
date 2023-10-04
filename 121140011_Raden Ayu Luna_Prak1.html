@@ -1,0 +1,137 @@
+<!-- By Raden Ayu Luna Az Zahra - 121140011 -->
+<!-- Praktikum Pemrograman Web RB - Tugas 1 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        /* CSS untuk menempatkan gambar di tengah */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      </style>
+      <style>
+        /* CSS untuk meratakan teks kiri dan kanan */
+        .justify-text {
+            text-align: justify;
+        }
+      </style>
+      <style>
+        /* Mengatur jarak atas dan bawah untuk elemen <br> */
+        br {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+     </style>
+     <style>
+     .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      }
+  
+    .video-container iframe {
+      width: 80%;
+      height: 80vh;
+      }
+    </style>
+    </head>
+  </head>
+
+  <body>
+    <div class="center">
+      <img src="anul.jpg" alt="Deskripsi gambar" widht="500" height="300">
+    </div>
+    <h1 class="center"> Raden Ayu Luna Az Zahra </h1>
+    <h2 class="center"> 121140011</h2>
+    <br>
+    <ul>
+        <li><a href="https://itera.ac.id/">Tentang Perguruan Tinggi</a></li>
+        <li><a href="http://if.itera.ac.id/">Tentang Program Studi</a></li>
+        <li><a href="https://youtu.be/v7n87xHhcxM?si=ek4OeYWaecD05Cu5">Link Youtube</a></li>
+    </ul>
+    </br>
+    <h3>  TENTANG SAYA</h3>
+    <p class="justify-text"> Mahasiswa semester lima Program Studi Teknik Informatika di Institut Teknologi Sumatera yang berorientasi dan memiliki ketertarikan pada ilmu teknologi. Memiliki sikap kepemimpinan, kemampuan beradaptasi, bekerjasama, dan inisiatif yang tinggi.</p>
+
+      <div class="video-container"><iframe width="560" height="315"
+     src="https://www.youtube.com/embed/DPZJzeVC10U?si=ekStTmaaf9n8Xm_F" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>vidio tenntang itera</iframe></div>
+        
+      <br>
+      <br>
+      <h2>Pengalaman Organisasi dan Kepanitiaan</h2>
+      <table border="2">
+        <tr>
+            <th rowspan="2">NO</th>
+            <th rowspan="2">JENIS PENGALAMAN</th>
+            <th colspan="6">TANGGAL</th> 
+        </tr>
+        <tr>
+          <th>Mulai</th>
+          <th>Selesai</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Staff Divisi Pelatihan dan Pengembangan Keprofesian HMIF</td>
+            <td>06 April 2023</td>
+            <td>-Sekarang</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bendahara Riuh Wisuda HMEI September</td>
+            <td>15 Agustus 2023</td>
+            <td>16 September 2023</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sekretaris First Gathering 2022</td>
+          <td>11 September 2022</td>
+          <td>18 September 2022</td>
+        </tr>
+    </table>
+    <br>
+
+    <h2> Masukkan Identitas</h2>
+    <form> 
+      <label for="Nama"> Nama :</label>
+      <input type="Nama" id="Nama" name="Nama" required>
+      <br>
+      <label for="NIM"> NIM  :</label>
+      <input type="NIM" id="NIM" name="NIM" required>
+      <br><br>
+
+      <h4>Udah makan belum?</h4>
+      <label for="option1">
+        <input type="radio" name="pertanyaan1" value="Belom" required> Belom </label>
+    <br>
+      <label for="option2">
+        <input type="radio" name="pertanyaan1" value="Udah" required> Udah </label>
+    <br>
+      <label for="option3">
+        <input type="radio" name="pertanyaan1" value="Kok kepo?" required> Kok kepo? </label> <br>
+      <br><br>
+      
+      <h4>Happy gak?</h4>
+      <label for="option1">
+        <input type="radio" name="pertanyaan2" value="Yupp" required> Yupp </label>
+    <br>
+      <label for="option2">
+        <input type="radio" name="pertanyaan2" value="Tidakkk" required> Tidakkk </label>
+    <br>
+      <label for="option3">
+        <input type="radio" name="pertanyaan2" value="Hmm" required> Hmm </label> <br>
+
+
+      
+      
+      <br><br>
+      <input type="reset" value="Hapus">
+      <input type="submit" value="Submit">
+  </form>
+
+</html>
