@@ -1,0 +1,126 @@
+/* untuk header */
+.header {
+    display: block;
+    padding: 30px;
+    background: orange;
+    white-space: nowrap;
+  }
+  
+  .header h3 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 0;
+  }
+  
+  .header h4 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 0;
+  }
+  
+  /* ukuran layout */
+  body {
+    font-family: Arial;
+    padding: 50px;
+    background: #f1f1f1; /*untung mengatur warna background*/
+  }
+  
+  /*untuk navigasi bar*/
+  .nav {
+    overflow: hidden;
+    background-color: #f5b429;
+  }
+  
+  /* Style navigasi bar */
+  .nav a {
+    float: left;
+    color: #f2f2f2; /* untuk warna font */
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .nav a:hover {
+    background-color: white; /* untuk merubah warna pada saat link di sentuh/di klik */
+    color: rgb(194, 188, 243); /* warna pada hover */
+  }
+  
+  /* untuk mengatur vidio agar ditengah */
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-container iframe {
+    width: 50%; /* Sesuaikan lebar video sesuai kebutuhan Anda */
+    height: 50vh;
+  }
+  
+  /* untuk memberikan efek seperti kartu/artikel */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  table {
+    width: 100%;
+    text-align: center;
+  }
+  /* Footer */
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background: #000000;
+    margin-top: 20px;
+  }
+  
+  .footer h3 {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    line-height: 0;
+  }
+  
+  /* CSS untuk menempatkan gambar di tengah */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;  Ini akan membuat gambar berada di tengah vertikal di halaman */
+  }
+  
+  .justify-text {
+    text-align: justify;
+  }
+  .indent {
+    text-indent: 20px;
+  }
+  
+  @media (max-width: 850px) {
+    .header {
+      background: blue;
+    }
+    .header h3 {
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      line-height: 0;
+    }
+    .header h4 {
+      font-size: 10px;
+      color: rgb(255, 255, 255);
+      line-height: 0;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
