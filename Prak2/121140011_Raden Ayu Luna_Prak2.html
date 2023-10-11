@@ -1,0 +1,168 @@
+<!-- By Raden Ayu Luna Az Zahra - 121140011 -->
+<!-- Praktikum Pemrograman Web RB - Tugas 2 -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="https://www.itera.ac.id/wp-content/uploads/2019/02/logo_itera_bulet_head.png"
+        width="150"
+        height="150"
+        align="left"
+      />
+      <br /><br />
+      <h3 class="indent">Raden Ayu Luna Az Zahra</h3>
+      <h4 class="indent">
+        Mahasiswi Institut Teknologi Sumatera
+      </h4>
+      <br />
+    </div>
+
+    <div class="nav">
+      <a href="https://github.com/lilisswastika" style="float: right;"
+        >Github</a
+      >
+      <a href="http://if.itera.ac.id/" style="float: right;">Prodi</a>
+      <a href="https://itera.ac.id/" style="float: right;">Kampus</a>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h3>TENTANG SAYA</h3>
+        <p class="justify">
+          Mahasiswa semester lima Program Studi Teknik Informatika di Institut Teknologi Sumatera yang berorientasi dan memiliki ketertarikan pada ilmu teknologi. Memiliki sikap kepemimpinan, kemampuan beradaptasi, bekerjasama, dan inisiatif yang tinggi.
+        </p>
+
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/8OxTG8plkz4?si=bX47GRnfIJ4Ytb3w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            >Tentang ITERA</iframe
+          >
+        </div>
+        <h3 class="center">Introduction</h3>
+      </div>
+      <div class="card">
+        <h2>PENGALAMAN HIDUP</h2>
+        <table height="200px" border="1">
+          <tr bgcolor="#A5A5A5">
+            <th rowspan="2">NO</th>
+            <th rowspan="2">JENIS PENGALAMAN</th>
+            <th colspan="2">TANGGAL</th>
+          </tr>
+          <tr bgcolor="#A5A5A5">
+            <th>Mulai</th>
+            <th>Selesai</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Staff Divisi Pengembangan dan Pelatihan Keprofesian</td>
+            <td>06 April 2023</td>
+            <td>Sampai Sekarang</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Bendahara Riuh Wisuda HMEI September</td>
+            <td>15 Agustus 2023</td>
+            <td>16 September 2023</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>Masukan Email dan Password</h2>
+        <form>
+          <!-- untuk mengelompokan elemen masukan -->
+          <label for="email"> Email :</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="password">Password :</label>
+          <input type="password" id="password" name="password" required />
+          <br /><br />
+
+          <h4>
+            Udah makan belum?
+          </h4>
+          <label for="option1">
+            <input
+              type="radio"
+              name="pertanyaan1"
+              value="udh"
+              required
+            />
+            udh
+          </label>
+          <br />
+          <label for="option2">
+            <input
+              type="radio"
+              name="pertanyaan1"
+              value="blm"
+              required
+            />
+            blm
+          </label>
+          <br />
+          <label for="option3">
+            <input
+              type="radio"
+              name="pertanyaan1"
+              value="kepo"
+              required
+            />
+            kepo
+          </label>
+          <br />
+          <br /><br />
+
+          <h4>Happy gak?</h4>
+          <label for="option1">
+            <input type="radio" name="pertanyaan2" value="g" required />
+            g
+          </label>
+          <br />
+          <label for="option2">
+            <input
+              type="radio"
+              name="pertanyaan2"
+              value="y"
+              required
+            />
+            y
+          </label>
+          <br />
+          <label for="option3">
+            <input
+              type="radio"
+              name="pertanyaan2"
+              value="hmm"
+              required
+            />
+            hmm
+          </label>
+          <br />
+
+          <br /><br />
+          <input type="reset" value="Hapus" />
+          <!-- Tombol Clear -->
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h3>The End</h3>
+    </div>
+  </body>
+</html>
