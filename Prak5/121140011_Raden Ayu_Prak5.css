@@ -1,0 +1,103 @@
+/* Raden Ayu Luna Az Zahra */
+/* 121140011 */
+
+/* Mengatur font family untuk seluruh elemen di halaman */
+* {
+  font-family: "Play", sans-serif;
+}
+
+/* Mengatur tampilan container kalkulator */
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: minmax(60px, auto) repeat(5, 60px);
+  min-height: 100vh;
+  margin: 10px 0;
+}
+
+/* Mengatur tampilan tombol */
+button {
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  background-color: #fa6b18;
+  border: none;
+  margin: 4px;
+  border-radius: 8px;
+}
+
+/* Mengatur tampilan tombol hasil perhitungan */
+.result {
+  grid-column: span 3; /* Ini membuat tombol "=" menempati 2 kolom */
+  background-color: #fa6b18;
+}
+
+.delete {
+  grid-column: span 2; /* Ini membuat tombol "=" menempati 2 kolom */
+  background-color: #fa6b18;
+}
+
+/* Mengatur tampilan tombol saat dihover (melayang) */
+button:hover {
+  background-color: #fa6b18;
+  color: white;
+}
+
+/* Mengatur tampilan layar kalkulator */
+.output {
+  grid-column: 1 / -1;
+  background-color: #fcbc73;
+  border-radius: 20px 20px 0 0;
+  word-wrap: break-word;
+  word-break: break-all;
+  -ms-word-break: break-all;
+  -ms-word-wrap: break-word;
+  padding: 20px;
+}
+
+/* Mengatur tampilan judul kalkulator */
+.output .title {
+  font-weight: 700;
+}
+
+/* Mengatur tampilan output di atas layar */
+.overoutput {
+  background-color: #140606;
+  padding-right: 10px;
+  padding: 10px;
+  text-align: end;
+  font-size: 20px;
+  color: #ffff;
+  min-height: 25px;
+  border-radius: 8px;
+}
+
+/* Mengatur tampilan output sementara di bawah layar */
+.tempoutput {
+  background-color: #140606;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  min-height: 25px;
+}
+
+/* Mengatur tampilan output utama di bawah layar */
+.underoutput {
+  padding: 20px;
+  text-align: end;
+  font-size: 30px;
+  color: rgb(27, 10, 59);
+  min-height: 50px;
+  font-weight: 700;
+}
+
+/* Mengatur tampilan judul kalkulator */
+.title {
+  text-align: center;
+  height: 40px;
+  padding-top: 10px;
+  font-size: 25px;
+  color: rgb(1, 2, 51);
+}
